@@ -1,1 +1,1 @@
-alert("Hello")
+require("./main.css")
