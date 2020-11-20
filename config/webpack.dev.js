@@ -2,7 +2,11 @@ const path = require("path")
 
 module.exports = {
 	entry: {
-		main: ["./src/main.js"]
+		main: [
+			// "babel-polyfill",
+			// "core-js/fn/promise",
+			"./src/main.js"
+		]
 	},
 	mode: "development",
 	output: {
